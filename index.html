@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Surf Passion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero { background: url('image-hero.jpg') center/cover no-repeat; height: 60vh; color: white; display: flex; align-items: center; justify-content: center; }
+    .hero h1 { font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+    .card-img-top { height: 200px; object-fit: cover; }
+    .pricing-plan { border: 1px solid #ddd; border-radius: .5rem; padding: 1.5rem; transition: transform .2s; }
+    .pricing-plan:hover { transform: scale(1.05); }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Surf Passion</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#tickets">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#subscribe">Subscription</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rentals">Rentals</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="text-center">
+      <h1>Live the Surf Passion</h1>
+      <p class="lead">Tickets, Memberships & Gear — all in one wave!</p>
+    </div>
+  </section>
+
+  <!-- Tickets Section -->
+  <section id="tickets" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Surf Event Tickets</h2>
+      <div class="row g-3 justify-content-center">
+        <div class="col-md-4">
+          <div class="pricing-plan text-center">
+            <h3>Beach Day Pass</h3>
+            <p class="display-5">$25</p>
+            <p>One-day access to surf fest.</p>
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-plan text-center">
+            <h3>Weekend Surf Festival</h3>
+            <p class="display-5">$60</p>
+            <p>All weekend with live DJs.</p>
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscription Section -->
+  <section id="subscribe" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Membership Plans</h2>
+      <div class="row g-3 justify-content-center">
+        <div class="col-md-4">
+          <div class="pricing-plan text-center">
+            <h3>Monthly Pass</h3>
+            <p class="display-5">$40/mo</p>
+            <p>Surf gear discounts + priority booking.</p>
+            <button class="btn btn-success">Join Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-plan text-center">
+            <h3>Annual Pass</h3>
+            <p class="display-5">$400/yr</p>
+            <p>Save 20%, plus exclusive events.</p>
+            <button class="btn btn-success">Join Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rentals Section -->
+  <section id="rentals" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Gear Rentals</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image1.jpg" class="card-img-top" alt="Surfboards">
+            <div class="card-body">
+              <h5 class="card-title">Surfboard</h5>
+              <p class="card-text">$15/day</p>
+              <button class="btn btn-outline-primary">Rent Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image2.jpg" class="card-img-top" alt="Wetsuit">
+            <div class="card-body">
+              <h5 class="card-title">Wetsuit</h5>
+              <p class="card-text">$10/day</p>
+              <button class="btn btn-outline-primary">Rent Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Get in Touch</h2>
+      <form class="row g-3 justify-content-center">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="col-md-12">
+          <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+        </div>
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-dark text-white">
+    <div class="container">
+      &copy; 2025 Surf Passion. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
